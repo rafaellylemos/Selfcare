@@ -78,14 +78,15 @@ ul {
     /*
     border: 1px solid red;
     */
-    width: 100%;
     text-align: center;
     justify-content: space-between;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 2rem;
   }
   li {
     padding-top: 3rem;
-    padding-left: 9rem;
-    padding-right: 9rem;
+
     text-align: justify;
     /*
     border: 1px solid green;
@@ -100,30 +101,6 @@ ul {
     font-size: 1.3rem;
     color: var(--primary-color);
   }
-  #box-img1,
-  #box-img4,
-  #box-img7 {
-    padding-left:0rem;
-    padding-right: 10rem;
-    margin: 0;
-  }
-#box-img2,
-#box-img5,
-#box-img8 {
-  padding-left:10;
-  padding-right: 10rem;
-}
-#box-img3,
-#box-img6,
-#box-img9 {
-  padding-left:10;
-  padding-right: 0rem;
-}
-#box-img7,
-#box-img8,
-#box-img9 {
-    padding-bottom: 7rem;
-}
   h3 {
     text-align: left;
     color: var(--primary-color);
