@@ -18,7 +18,7 @@ Projeto desenvolvido para treinar habilidades frontend.
 <br>
 
 <p align="center">
-  <img alt="Página de vendas Selfcare" src=".design/desktop.png" width="100%">
+  <img alt="Página de vendas Selfcare" src="design/desktop.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
